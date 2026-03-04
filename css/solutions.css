@@ -18,7 +18,7 @@
 .workout-section>article:nth-child(3)::before{
     content: "";
     height: 100%;
-    width: 5px;
+    width: 5pdx;
     background-color: rgba(243, 156, 18);
     position: absolute;
     top: 0;
@@ -30,9 +30,12 @@ div:nth-child(even)>.exercise-name::before{
     content: "\26A1";
     display: block;
 }
-/* div:first-child>div.exercise-item{
+div.exercise-item:first-child{
     background: rgba(240, 255, 244);
-} */
+}
+div.exercise-item:last-child{
+    background: rgba(240, 255, 244);
+} 
 .goals-container input:focus,
 .goals-container select:focus{
     
@@ -46,3 +49,4 @@ div:nth-child(even)>.exercise-name::before{
     background-color: rgb(0, 0, 157);
     transition: all 200ms;
 }
+
