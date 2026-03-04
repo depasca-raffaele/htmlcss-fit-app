@@ -58,10 +58,10 @@ div.exercise-item:last-child{
 	translate: 0 -2px;
 	
 }
-.nav-footer .nav-item:first-child{
-	background-color: rgba(52, 73, 94);
-}
+.nav-footer .nav-item:first-child, 
 .nav-item:hover{
 	background-color: rgba(52, 73, 94);
+    color: rgb(49, 49, 246);
 }
+
 
