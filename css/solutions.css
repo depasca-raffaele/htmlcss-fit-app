@@ -26,3 +26,7 @@
     border-radius: 20px 0 0 20px;
     translate: 0.5px;
 }
+div:nth-child(even)>.exercise-name::before{
+    content: "\26A1";
+    display: block;
+}
