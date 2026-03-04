@@ -5,7 +5,7 @@
 .stats-container>:last-child{
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
-.stats-container>:last-child .stat-number,.stat-label{
+.stats-container>:last-child .stat-number+.stat-label{
     color: white;
 }
 .stats-container>.stats-grid:hover{
@@ -33,9 +33,11 @@ div:nth-child(even)>.exercise-name::before{
 }
 div.exercise-item:first-child{
     background: rgba(240, 255, 244);
+    border-left: 4px solid green;
 }
 div.exercise-item:last-child{
     background: rgba(240, 255, 244);
+    border-left: 4px solid green;
 } 
 .goals-container input:focus,
 .goals-container select:focus{
