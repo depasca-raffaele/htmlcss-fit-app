@@ -263,3 +263,12 @@ body {
 .bottom-spacer {
 	height: 80px;
 }
+.progress-section>.progress-bar>.progress-fill::before{
+	content: "65%";
+	color: white;
+	position: absolute;
+	font-size: 10px;
+	left: 90%;
+	translate: 0 -2px;
+	
+}
