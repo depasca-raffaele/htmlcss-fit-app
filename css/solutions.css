@@ -1,0 +1,4 @@
+section.stats-container>div:first-child span.stat-number::before{
+    content: "\1F525";
+    display: block;
+}
