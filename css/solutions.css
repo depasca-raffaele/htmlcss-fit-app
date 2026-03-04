@@ -12,3 +12,17 @@
     translate: 0 -5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.553);
 }
+.workout-section>article:nth-child(3){
+    background-color: rgba(255, 248, 186);
+}
+.workout-section>article:nth-child(3)::before{
+    content: "";
+    height: 100%;
+    width: 5px;
+    background-color: rgba(243, 156, 18);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0 0 20px;
+    translate: 0.5px;
+}
