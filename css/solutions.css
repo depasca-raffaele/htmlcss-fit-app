@@ -49,4 +49,19 @@ div.exercise-item:last-child{
     background-color: rgb(0, 0, 157);
     transition: all 200ms;
 }
+.progress-section>.progress-bar>.progress-fill::before{
+	content: "65%";
+	color: white;
+	position: absolute;
+	font-size: 10px;
+	left: 90%;
+	translate: 0 -2px;
+	
+}
+.nav-footer .nav-item:first-child{
+	background-color: rgba(52, 73, 94);
+}
+.nav-item:hover{
+	background-color: rgba(52, 73, 94);
+}
 
