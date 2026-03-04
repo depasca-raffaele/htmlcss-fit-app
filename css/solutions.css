@@ -63,5 +63,22 @@ div.exercise-item:last-child{
 	background-color: rgba(52, 73, 94);
     color: rgb(49, 49, 246);
 }
+.quote-box>p::before{
+    content: "''";
+    color: rgba(158, 134, 196);
+    font-size: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.quote-box>p::after{
+    content: "''";
+    color: rgba(158, 134, 196);
+    font-size: 55px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    translate: -10px;
+}
 
 
