@@ -18,7 +18,7 @@
 .workout-section>article:nth-child(3)::before{
     content: "";
     height: 100%;
-    width: 5pdx;
+    width: 5px;
     background-color: rgba(243, 156, 18);
     position: absolute;
     top: 0;
