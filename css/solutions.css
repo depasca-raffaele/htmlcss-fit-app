@@ -1,4 +1,10 @@
-section.stats-container>div:first-child span.stat-number::before{
+.stats-container>:first-child .stat-number::before{
     content: "\1F525";
     display: block;
+}
+.stats-container>:last-child{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.stats-container>:last-child .stat-number,.stat-label{
+    color: white;
 }
